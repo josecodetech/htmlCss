@@ -1,0 +1,97 @@
+﻿*{		
+	padding:0px;
+	margin:0 auto;	
+	min-width:320px;
+}
+header{
+	background:red;
+	color:white;
+	font-size:2.5em;	
+	width:95%;
+	padding: 10px;
+	margin: 5px 5px;
+	display:inline-block;	
+}
+header figure {
+	float:left;
+}
+header h1{
+	float:right;
+}
+nav{		
+	font-size:1em;	
+	width:95%;
+	padding: 5px;
+	margin: 1px 1px;
+	text-align:center;
+
+}
+nav ul{
+	list-style-type: none;
+	text-align: center;
+}
+nav li{
+   display: inline;
+   text-align: center;
+   margin: 0 15px 0 0;
+}
+nav li a{
+   padding: 2px 7px 2px 7px;
+   color: red;
+   background-color: white;
+   border: 1px solid #ccc;
+   text-decoration: none;	
+}
+nav li a:hover{
+	background:red;
+	color:white;	
+	cursor:pointer;
+}
+section{
+	width:70%;
+	margin-left:15px;
+	margin-top: 25px;
+	padding:10px;
+	border:1px solid #ccc; 
+	float:left;
+	background:grey;
+	color:white;
+	font-size:1.5em;
+}
+section h2{
+	color:red;
+	font-size:2em;
+}
+aside{
+	width:20%;
+	margin-left:15px;
+	margin-top: 25px;
+	padding:10px;
+	border:1px solid #ccc; 
+	float:left;
+	background:grey;
+	color:white;
+	font-size:1.5em;
+}
+footer{
+	width:95%;
+	clear:both;
+	margin-left:15px;
+	margin-top: 25px;
+	padding:10px;
+	border:1px solid #ccc;
+	background:red;
+	color:white;
+	font-size:0.5em;	
+}
+#email{
+	margin-left:65px;
+	font-size:1.5em;
+	color:yellow;
+}
+.enlace{
+	color:green;
+}
+.enlace:hover{
+	color:blue;
+}
