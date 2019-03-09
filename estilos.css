@@ -1,88 +1,102 @@
-﻿*{		
+﻿*{
+	margin:0 auto;
 	padding:0px;
-	margin:0 auto;	
-	min-width:320px;
+	/*font-family: 'Playfair Display', serif;*/
+	font-family: 'Quicksand', sans-serif;
 }
 header{
-	background:red;
-	color:white;
-	font-size:2.5em;	
+	background:#FF5733;
+	color:#FFFFFF;
+	font-size:3em;
 	width:95%;
-	padding: 10px;
-	margin: 5px 5px;
-	display:inline-block;	
+	padding:10px;
+	margin:5px 5px;
+	display:inline-block;
+	border:solid 1px #ccc;
+	border-radius:25px;
 }
-header figure {
+header figure{
 	float:left;
 }
 header h1{
 	float:right;
 }
-nav{		
-	font-size:1em;	
+nav{
+	font-size:1em;
 	width:95%;
-	padding: 5px;
-	margin: 1px 1px;
+	padding:5px;
+	margin:1px 1px;
 	text-align:center;
-
 }
 nav ul{
-	list-style-type: none;
-	text-align: center;
+	list-style-type:none;
 }
 nav li{
-   display: inline;
-   text-align: center;
-   margin: 0 15px 0 0;
+	display:inline;
+	text-align:center;
+	margin:0 15px 0 0;
 }
 nav li a{
-   padding: 2px 7px 2px 7px;
-   color: red;
-   background-color: white;
-   border: 1px solid #ccc;
-   text-decoration: none;	
+	padding:2px 7px 2px 7px;
+	color:#FF5733;
+	background-color:#FFFFFF;
+	border:1px solid #ccc;
+	text-decoration:none;
 }
 nav li a:hover{
-	background:red;
-	color:white;	
-	cursor:pointer;
+	background:#FF5733;
+	color:#FFFFFF;
 }
 section{
 	width:70%;
 	margin-left:15px;
-	margin-top: 25px;
+	margin-top:25px;
 	padding:10px;
-	border:1px solid #ccc; 
+	border:1px solid #ccc;
 	float:left;
-	background:grey;
-	color:white;
-	font-size:1.5em;
+	background:#E6E6E6;
+	color:#000000;
+	border-radius:25px;
 }
 section h2{
-	color:red;
-	font-size:2em;
+	color:#FF5733;
+	font-size:1.5em;
+}
+section p{
+	font-size:1em;
 }
 aside{
 	width:20%;
 	margin-left:15px;
-	margin-top: 25px;
+	margin-top:25px;
 	padding:10px;
-	border:1px solid #ccc; 
+	border:1px solid #ccc;
 	float:left;
-	background:grey;
-	color:white;
-	font-size:1.5em;
+	background:#E6E6E6;
+	color:#000000;
+	border-radius:25px;
+	font-size:1em;
+}
+aside a{
+	text-decoration:none;
+}
+aside a:hover{
+	color:#000000;
+}
+aside ul{
+	list-style-type:none;
 }
 footer{
 	width:95%;
 	clear:both;
 	margin-left:15px;
-	margin-top: 25px;
+	margin-top:25px;
 	padding:10px;
 	border:1px solid #ccc;
-	background:red;
-	color:white;
-	font-size:0.5em;	
+	background:#FF5733;
+	color:#FFFFFF;
+	font-size:0.5em;
+	border-radius:25px;
 }
 #email{
 	margin-left:65px;
@@ -91,7 +105,24 @@ footer{
 }
 .enlace{
 	color:green;
+	font-size:1em;
 }
 .enlace:hover{
 	color:blue;
+	font-size:2em;
+}
+@media screen and (max-width:480px){
+	header{	
+	font-size:1em;
+	width:95%;
+	padding:2px;
+	margin:2px 2px;
+	display:inline-block;
+	border:solid 1px #ccc;
+	border-radius:15px;
+	}
+	section p{
+	font-size:0.8em;
+	color:red;
+}
 }
