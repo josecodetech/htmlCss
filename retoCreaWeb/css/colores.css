@@ -1,0 +1,24 @@
+:root{
+    /*colores*/
+    --colorPrincipal:#7B1FA2;
+    --colorSecundario:#E1BEE7;
+    --colorFuentePrincipal:#212121;
+    --colorFuenteSecundaria:#ffffff;
+    --colorHover:#BDBDBD;
+}
+header, section{
+    background-color: var(--colorSecundario);
+    color: var(--colorFuentePrincipal)
+}
+nav,aside,footer{
+    background-color: var(--colorPrincipal);
+    color: var(--colorFuenteSecundaria)
+}
+a{
+    color: var(--colorFuenteSecundaria)
+}
+a:hover{
+    color: var(--colorFuentePrincipal);
+    background-color:var(--colorHover);
+    
+}
