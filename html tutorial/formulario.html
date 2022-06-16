@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>
+    Formulario
+    </title>
+</head>
+<body>
+<h1>Formulario</h1><br/>
+    <form action="#" method="post">
+    <legend>Formulario de contacto</legend>
+        <label for="nombre">Nombre</label>
+        <input type="text" id="nombre" placeholder="Escribe aqui tu nombre"/><br/>
+        <label for="pass">Contraseña</label>
+        <input type="password" name="pass" required/><br/>
+        <textarea id="masDatos"></textarea><br/>
+        <input type="radio" name="genero" value="masculino">Masculino<br/>
+        <input type="radio" name="genero" value="femenino">Femenino<br/>
+        <select name="genero">
+            <option value="masculino">Masculino</option>
+            <option value="femenino">Femenino</option>
+        </select>
+        <label>Check</label>
+        <input type="checkbox" checked="checked"/><br/>
+        <input type="number" name="numero" min="1" max="80" step="2"><br/>
+        <input type="date"><br/>
+        <input type="color"><br/>
+        <hr/>
+        <input type="submit" value="Enviar"/>
+    </form>
+</body>
+</html>

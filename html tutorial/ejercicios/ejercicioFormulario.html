@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <main>
+        <section>
+            <article>
+                <header><h1>Ejercicio de formulario</h1></header>
+                <form action="#">
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" name="nombre" id="nombre" placeholder="Nombre" required>
+                    <br/>
+                    <label for="edad">Edad:</label>
+                    <input type="number" name="edad" id="edad" placeholder="Edad" min=0 max=100 required>
+                    <br/>
+                    <label for="observaciones">Observaciones:</label>
+                    <textarea name="observaciones" id="observaciones" cols="50" rows="15" placeholder="Observaciones"></textarea>
+                    <br/>
+                    <button type="submit">Enviar</button>
+                    <button type="reset">Limpiar</button>
+                </form>
+            </article>
+        </section>
+    </main>
+</body>
+</html>

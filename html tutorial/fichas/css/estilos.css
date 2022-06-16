@@ -1,0 +1,84 @@
+*{
+    padding: 5px;
+    background: #19070B;
+    color:#DF3A01;
+    margin: 0 auto;
+    font-family: 'Sansita Swashed', cursive;
+    font-size: 14px;
+}
+header,nav,footer,section{
+    width: 90%;
+    padding: 10px;
+    margin: 15px;
+    text-align: center;
+}
+article{
+    display: block;
+    margin: 0 auto;
+    width: 55%;
+}
+.tarjeta {
+    float: left;
+    display: inline-block;
+    border: #FA8258 10px solid;
+    margin-top: 25px;
+    margin-right: 15px;
+    margin-left: 15px;
+    width: 20%;
+    text-align: center;
+}
+.tarjeta img{
+    width: 50%;
+    height: 50%;
+    border: #A5DF00 10px solid;
+
+}
+.tarjeta h2{
+    font-size: 2em;
+}
+.tarjeta p{
+    font-size: 1em;
+}
+.tarjeta:hover{
+    border:#01DF01 15px solid;
+    margin: 5px;
+    width: 30%;
+   cursor: pointer;
+}
+.contenido {
+    float: left;
+    display: inline-block;
+    border: #FA8258 10px solid;
+    margin-top: 25px;
+    margin-right: 15px;
+    margin-left: 15px;
+    width: 90%;
+    text-align: center;
+}
+.contenido img{
+    width: 50%;
+    height: 50%;
+    border: #A5DF00 10px solid;
+
+}
+.contenido h2{
+    font-size: 4em;
+}
+.contenido p{
+    font-size: 1.5em;
+}
+h1{
+    font-size: 2em;
+}
+h2{
+    font-size: 1.5em;
+}
+
+footer{
+    border-top:50px;
+    clear: both;
+    display:block;
+    float:left;
+    font-size: 0.5em;
+}
+

@@ -1,0 +1,217 @@
+*{
+    color:#F3F390;
+    background:#404033;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 12px;
+}
+body{
+    margin: 0px auto;
+}
+header{
+    background:#404033;    
+    width:95%;
+    padding:2px;
+    margin: 3px 1px;
+    display:inline-block;
+}
+header h1{
+    font-size: 3em;
+    color:#F3F390;
+    text-align: center;
+    float:left;
+    background:#404033;
+}
+
+nav{
+    margin:0 auto;
+    text-align: center;
+    font-size: 1em;
+    width:95%;
+    padding: 2px;
+    background:#404033;
+    margin: 3px 1px;
+}
+nav ul{
+    list-style-type:none;
+    background:#404033;
+}
+nav li{
+    display: block;
+    margin: 6px;
+    padding: 3px;
+}
+nav li a{
+    padding: 3px;
+    color:#F3F390;
+    background:#404033;
+    border: 1px solid #F3F390;
+    text-decoration: none;
+
+}
+nav li a:hover{
+    background:#F3F390;
+    color:#404033;
+}
+section{
+    width: 95%;
+    margin-left:10px;
+    margin-top: 20px;
+    padding:5px;
+    float: left;
+    background:#404033;
+}
+article h2{
+    font-size:1em;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 5px;
+    padding:3px;
+}
+aside{
+}
+footer{
+    width:95%;
+    clear:both;
+    margin-left: 10px;
+    margin-top: 20px;
+    padding:5px;
+    font-size:0.5em;
+}
+
+table{
+    margin: 0 auto;
+    text-align: left;
+    margin-bottom: 15px;
+}
+td{
+    width: 120px;
+    margin-right: 20px;
+}
+address{
+    font-size: 2em;
+    margin: 0 auto;
+    text-align: center;
+}
+#mapa{
+    margin: 0 auto;
+    text-align: center;
+}
+@media screen and (max-width:639px){
+    *{
+        font-size: 10px;
+    }
+    header{
+
+        display:block;
+    }
+    header h1{
+        font-size: 1.5em;
+
+    }
+}
+@media screen and (min-width: 640px){
+    *{
+
+        font-size: 14px;
+    }
+    body{
+        margin: 0px auto;
+    }
+    header{
+        background:#404033;    
+        width:95%;
+        padding:3px;
+        margin: 5px 1px;
+        display:inline-block;
+    }
+    header h1{
+        font-size: 4em;
+        color:#F3F390;
+        text-align: center;
+        float: left;
+        background:#404033;
+    }
+    header figure{
+        float:left;
+    }
+    nav{
+        margin:0 auto;
+        text-align: center;
+        font-size: 1em;
+        width:95%;
+        padding: 3px;
+        background:#404033;
+        margin: 5px 1px;
+    }
+    nav ul{
+        list-style-type:none;
+        background:#404033;
+    }
+    nav li{
+        display: inline;
+        margin: 0px 1px 0px 0px;
+    }
+    nav li a{
+        padding: 2px 7px 2px 7px;
+        color:#F3F390;
+        background:#404033;
+        border: 1px solid #F3F390;
+        text-decoration: none;
+    
+    }
+    nav li a:hover{
+        background:#F3F390;
+        color:#404033;
+    }
+    section{
+        width: 90%;
+        margin-left:15px;
+        margin-top: 25px;
+        padding:10px;
+        float: left;
+        background:#404033;
+    }
+    article h2{
+        font-size:2em;
+        margin: 0 auto;
+        text-align: center;
+        margin-bottom: 10px;
+        padding:5px;
+    }
+    aside{
+        width: 10%;
+        margin-left:15px;
+        margin-top:25px;
+        padding:10px;
+        float: left;
+        font-size:1.5em;
+    }
+    footer{
+        width:95%;
+        clear:both;
+        margin-left: 15px;
+        margin-top: 25px;
+        padding:10px;
+        font-size:0.5em;
+    }
+    
+    table{
+        margin: 0 auto;
+        text-align: left;
+        margin-bottom: 20px;
+    }
+    td{
+        width: 140px;
+        margin-right: 25px;
+    }
+    address{
+        font-size: 2em;
+        margin: 0 auto;
+        text-align: center;
+    }
+    #mapa{
+        margin: 0 auto;
+        text-align: center;
+    }
+    
+}
