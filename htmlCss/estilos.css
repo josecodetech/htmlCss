@@ -1,0 +1,148 @@
+﻿*{
+	margin:0 auto;
+	padding:0px;
+	/*font-family: 'Playfair Display', serif;*/
+	font-family: 'Quicksand', sans-serif;
+}
+header{
+	background:#FF5733;
+	color:#FFFFFF;
+	font-size:3em;
+	width:95%;
+	padding:10px;
+	margin:5px 5px;
+	display:inline-block;
+	border:solid 1px #ccc;
+	border-radius:25px;
+}
+header figure{
+	float:left;
+}
+header h1{
+	float:right;
+}
+nav{
+	font-size:1em;
+	width:95%;
+	padding:5px;
+	margin:1px 1px;
+	text-align:center;
+}
+nav ul{
+	list-style-type:none;
+}
+nav li{
+	display:inline;
+	text-align:center;
+	margin:0 15px 0 0;
+}
+nav li a{
+	padding:2px 7px 2px 7px;
+	color:#FF5733;
+	background-color:#FFFFFF;
+	border:1px solid #ccc;
+	text-decoration:none;
+}
+nav li a:hover{
+	background:#FF5733;
+	color:#FFFFFF;
+}
+section{
+	width:70%;
+	margin-left:15px;
+	margin-top:25px;
+	padding:10px;
+	border:1px solid #ccc;
+	float:left;
+	background:#E6E6E6;
+	color:#000000;
+	border-radius:25px;
+}
+section h2{
+	color:#FF5733;
+	font-size:1.5em;
+}
+section p{
+	font-size:1em;
+}
+aside{
+	width:20%;
+	margin-left:15px;
+	margin-top:25px;
+	padding:10px;
+	border:1px solid #ccc;
+	float:left;
+	background:#E6E6E6;
+	color:#000000;
+	border-radius:25px;
+	font-size:1em;
+}
+aside a{
+	text-decoration:none;
+}
+aside a:hover{
+	color:#000000;
+}
+aside ul{
+	list-style-type:none;
+}
+footer{
+	width:95%;
+	clear:both;
+	margin-left:15px;
+	margin-top:25px;
+	padding:10px;
+	border:1px solid #ccc;
+	background:#FF5733;
+	color:#FFFFFF;
+	font-size:0.5em;
+	border-radius:25px;
+}
+label{
+	margin-left:10px;
+	margin-right:10px;
+	padding:10px;
+	float:left;
+	width:70px;
+}
+input{
+	display:inline-block;
+	margin-top:20px;	
+	margin-right:10px;
+	margin-bottom:10px;
+	padding:10px;
+}
+#boton{
+	display:inline-block;
+	margin-bottom:10px;
+	margin-top:10px;
+}
+
+#email{
+	margin-left:65px;
+	font-size:1.5em;
+	color:yellow;
+}
+.enlace{
+	color:green;
+	font-size:1em;
+}
+.enlace:hover{
+	color:blue;
+	font-size:2em;
+}
+@media screen and (max-width:480px){
+	header{	
+	font-size:1em;
+	width:95%;
+	padding:2px;
+	margin:2px 2px;
+	display:inline-block;
+	border:solid 1px #ccc;
+	border-radius:15px;
+	}
+	section p{
+	font-size:0.8em;
+	color:red;
+}
+}

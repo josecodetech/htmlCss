@@ -1,0 +1,122 @@
+* {
+  font-family: "Vujahday Script", cursive;
+  font-size: 1.2 em;
+  margin: 0px;
+  padding: 0px;
+}
+main {
+  background-color: #303f9f;
+  color: #ffffff;
+  margin: 0 auto;
+  padding: 10px;
+}
+header {
+  width: 90%;
+  background-color: #03a9f4;
+  color: #ffffff;
+  border-radius: 20px;
+  margin: 5px;
+  padding: 10px;
+  height: 120px;
+}
+nav {
+  width: 90%;
+  float: left;
+  border-radius: 20px;
+  margin: 5px;
+  padding: 10px;
+  background-color: #03a9f4;
+  color: #bdbdbd;
+}
+nav a {
+  text-decoration: none;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px;
+  color: #ffffff;
+}
+nav a:hover {
+  color: #03a9f4;
+  background-color: #ffffff;
+  font-weight: bold;
+  font-size: 1.4em;
+}
+
+section {
+  width: 70%;
+  border-radius: 20px;
+  float: left;
+  margin: 10px;
+  padding: 10px;
+}
+article {
+  width: 90%;
+  margin: 10px;
+  padding: 10px;
+}
+aside {
+  width: 15%;
+  background-color: #c5cae9;
+  color: #212121;
+  float: left;
+  border-radius: 20px;
+  margin: 10px;
+  padding: 10px;
+  font-size: 1.2em;
+}
+footer {
+  width: 90%;
+  background-color: #03a9f4;
+  color: #ffffff;
+  border-radius: 20px;
+  margin: 5px;
+  padding: 10px;
+  font-size: 1.1em;
+  clear: both;
+}
+img {
+  width: 80px;
+  height: 80px;
+  padding: 10px;
+  margin: 10px;
+  float: left;
+}
+h1 {
+  float: left;
+  text-align: center;
+  font-size: 5em;
+  margin: 20px;
+  padding: 20px;
+}
+
+h2 {
+  padding: 10px;
+  margin: 10px;
+  font-size: 3em;
+}
+p {
+  font-size: 1.5em;
+  padding: 5px;
+  margin: 10px;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  padding: 5px;
+  margin: 5px;
+}
+a:hover {
+  color: #03a9f4;
+  background-color: #ffffff;
+  font-weight: bold;
+  font-size: 1.4em;
+}
+.animalo {
+  display: inline-block;
+  margin: 0 0.5rem;
+
+  animation: bounce; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 4s; /* don't forget to set a duration! */
+}
