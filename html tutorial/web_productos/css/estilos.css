@@ -1,0 +1,37 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+header{
+    background-color: #007bff;
+    color:whitesmoke;
+    padding: 20px;
+}
+#productos{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
+    gap:20px;
+    padding:20px;
+}
+.producto{
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+.producto img{
+    max-width: 80%;
+    height: auto;
+}
+.producto h3{
+    color:#333;
+}
+.producto p{
+    color: #666;
+}
+.producto:hover{
+    transform: scale(1.05);
+    transition: transform 0.2s;
+}
